@@ -1,0 +1,69 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2628
+
+This plugin improves Vim's support for editing R code and makes it possible to integrate Vim with R. This filetype plugin uses either screen (GNU/Linux) or python (Microsoft Windows) to communicate with R. The new functions are similar to what you can find in Tinn-R and ess mode of emacs.
+
+MAIN FEATURES:
+
+
+  * Syntax highlighting for R syntax.
+  * Smart indentation for R syntax.
+  * Integrated communication with R.
+  * Omni completion (auto-completion) for R objects.
+  * Ability to update the list of objects for omni completion and syntax highlighting to include all R packages loaded by the user.
+  * Object browser (must be updated manually)
+  * Ability to see R's documentation in a Vim's buffer (not on Microsoft Windows).
+
+
+Screenshots and Debian package: http://sites.google.com/site/jalvesaq/vimrplugin
+
+
+USE: Please, read the plugin's documentation.
+
+FILES:
+   autoload/rcomplete.vim
+   autoload/rplugin.vim
+   bitmaps/RClearAll.bmp
+   bitmaps/RClearAll.png
+   bitmaps/RClear.bmp
+   bitmaps/RClear.png
+   bitmaps/RClose.bmp
+   bitmaps/RClose.png
+   bitmaps/ricon.png
+   bitmaps/ricon.xbm
+   bitmaps/RListSpace.bmp
+   bitmaps/RListSpace.png
+   bitmaps/RSendBlock.bmp
+   bitmaps/RSendBlock.png
+   bitmaps/RSendFile.bmp
+   bitmaps/RSendFile.png
+   bitmaps/RSendFunction.bmp
+   bitmaps/RSendFunction.png
+   bitmaps/RSendLine.bmp
+   bitmaps/RSendLine.png
+   bitmaps/RSendParagraph.bmp
+   bitmaps/RSendParagraph.png
+   bitmaps/RSendSelection.bmp
+   bitmaps/RSendSelection.png
+   bitmaps/RStart.bmp
+   bitmaps/RStart.png
+   doc/r-plugin.txt
+   ftdetect/r.vim
+   ftplugin/rhelp.vim
+   ftplugin/rnoweb.vim
+   ftplugin/r.vim
+   ftplugin/rbrowser.vim
+   indent/r.vim
+   r-plugin/build_omni_list.R
+   r-plugin/etags2ctags.R
+   r-plugin/functions.vim
+   r-plugin/omnilist
+   r-plugin/vimbrowser.R
+   r-plugin/rpager.sh
+   r-plugin/rperl.vim
+   r-plugin/rpython.vim
+   r-plugin/specialfuns.R
+   r-plugin/vimActivate.js
+   syntax/rbrowser.vim
+   syntax/rout.vim
+   syntax/r.vim
+
